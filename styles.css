@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+.profile-picture {
+    width: 200px;
+    border-radius: 50%;
+   
+}
+legend,label,option,select{
+    font-weight: 1000;
+}
+label {
+    display: inline-block;
+    width: 40%;
+    margin: 0;
+}
+
+input {
+    width: 40%;
+    margin: 0;
+}
+
+.veinte {
+    width: 20%;
+    display: inline-block;
+}
+
+fieldset>div {
+    margin-bottom: 0.5rem;
+}
+
+fieldset,
+input,
+button {
+    border-radius: 5px;
+}
+fieldset {
+    background-color: rgb(177, 222, 237)
+}
+
+button {
+    width: 40%;
+    margin: 1rem;
+}
+
+button.delete-button {
+    background-color: rgb(249, 67, 67);
+}
+
+button.send-button {
+    background-color: rgb(48, 143, 232);
+}
+.prencipio{
+    display:flex;
+    justify-content:space-evenly ;
+}
+header{
+    background-color: aquamarine;
+    padding: 2px;
+}
+main{
+    display: flex;
+}
